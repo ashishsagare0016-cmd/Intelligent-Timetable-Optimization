@@ -1,0 +1,297 @@
+{
+  "department": "Computer Engineering",
+  "division": "TY-C",
+  "student_count": 60,
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "periods": ["P1", "P2", "P3", "P4", "P5", "P6"],
+  "subjects": [
+    {
+      "id": "SUB01",
+      "name": "Design and Analysis of Algorithms",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 4
+    },
+    {
+      "id": "SUB02",
+      "name": "Database Management Systems",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    },
+    {
+      "id": "SUB03",
+      "name": "Operating Systems",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    },
+    {
+      "id": "SUB04",
+      "name": "Computer Networks",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    },
+    {
+      "id": "SUB05",
+      "name": "Artificial Intelligence",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    },
+    {
+      "id": "SUB06",
+      "name": "Machine Learning",
+      "type": "Practical",
+      "requires_lab": true,
+      "weekly_sessions": 2
+    },
+    {
+      "id": "SUB07",
+      "name": "Software Engineering",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    },
+    {
+      "id": "SUB08",
+      "name": "Mathematics",
+      "type": "Theory",
+      "requires_lab": false,
+      "weekly_sessions": 3
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T01",
+      "name": "Prof. Sharma",
+      "subjects": ["Design and Analysis of Algorithms"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "T02",
+      "name": "Prof. Patil",
+      "subjects": ["Database Management Systems"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4"]
+      }
+    },
+    {
+      "id": "T03",
+      "name": "Prof. Joshi",
+      "subjects": ["Operating Systems", "Artificial Intelligence"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "T04",
+      "name": "Prof. Kulkarni",
+      "subjects": ["Computer Networks", "Software Engineering"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "T05",
+      "name": "Prof. Deshmukh",
+      "subjects": ["Machine Learning"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5"]
+      }
+    },
+    {
+      "id": "T06",
+      "name": "Prof. More",
+      "subjects": ["Mathematics"],
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R101",
+      "name": "Room 101",
+      "capacity": 70,
+      "is_lab": false,
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "R102",
+      "name": "Room 102",
+      "capacity": 70,
+      "is_lab": false,
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "R103",
+      "name": "Room 103",
+      "capacity": 65,
+      "is_lab": false,
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "L101",
+      "name": "Lab 1",
+      "capacity": 35,
+      "is_lab": true,
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    },
+    {
+      "id": "L102",
+      "name": "Lab 2",
+      "capacity": 35,
+      "is_lab": true,
+      "availability": {
+        "Monday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Tuesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Wednesday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Thursday": ["P1", "P2", "P3", "P4", "P5", "P6"],
+        "Friday": ["P1", "P2", "P3", "P4", "P5", "P6"]
+      }
+    }
+  ],
+  "timetable_entries": [
+    {
+      "id": "class_001",
+      "subject": "Design and Analysis of Algorithms",
+      "teacher": "Prof. Sharma",
+      "division": "TY-C",
+      "room": "Room 101",
+      "class_type": "Theory",
+      "day": "Tuesday",
+      "period": "P4",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_002",
+      "subject": "Database Management Systems",
+      "teacher": "Prof. Patil",
+      "division": "TY-C",
+      "room": "Room 102",
+      "class_type": "Theory",
+      "day": "Monday",
+      "period": "P1",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_003",
+      "subject": "Operating Systems",
+      "teacher": "Prof. Joshi",
+      "division": "TY-C",
+      "room": "Room 103",
+      "class_type": "Theory",
+      "day": "Tuesday",
+      "period": "P5",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_004",
+      "subject": "Computer Networks",
+      "teacher": "Prof. Kulkarni",
+      "division": "TY-C",
+      "room": "Room 101",
+      "class_type": "Theory",
+      "day": "Monday",
+      "period": "P2",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_005",
+      "subject": "Artificial Intelligence",
+      "teacher": "Prof. Joshi",
+      "division": "TY-C",
+      "room": "Room 102",
+      "class_type": "Theory",
+      "day": "Monday",
+      "period": "P5",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_006",
+      "subject": "Machine Learning",
+      "teacher": "Prof. Deshmukh",
+      "division": "TY-C",
+      "room": "Lab 1",
+      "class_type": "Practical",
+      "day": "Monday",
+      "period": "P6",
+      "required_capacity": 30
+    },
+    {
+      "id": "class_007",
+      "subject": "Software Engineering",
+      "teacher": "Prof. Kulkarni",
+      "division": "TY-C",
+      "room": "Room 103",
+      "class_type": "Theory",
+      "day": "Tuesday",
+      "period": "P1",
+      "required_capacity": 60
+    },
+    {
+      "id": "class_008",
+      "subject": "Mathematics",
+      "teacher": "Prof. More",
+      "division": "TY-C",
+      "room": "Room 101",
+      "class_type": "Theory",
+      "day": "Tuesday",
+      "period": "P2",
+      "required_capacity": 60
+    }
+  ]
+}
+
